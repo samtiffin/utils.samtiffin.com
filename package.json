@@ -1,0 +1,39 @@
+{
+  "name": "utils.samtiffin.com",
+  "version": "1.0.0",
+  "description": "Stupid utils for handy shit",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samtiffin/utils.samtiffin.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samtiffin/utils.samtiffin.com/issues"
+  },
+  "homepage": "https://github.com/samtiffin/utils.samtiffin.com#readme",
+  "devDependencies": {
+    "jspm": "^0.16.13"
+  },
+  "jspm": {
+    "dependencies": {
+      "blakeembrey/sentence-case": "github:blakeembrey/sentence-case@^1.1.2",
+      "css": "github:systemjs/plugin-css@^0.1.19",
+      "ianstormtaylor/to-sentence-case": "github:ianstormtaylor/to-sentence-case@^0.1.1",
+      "jquery": "github:components/jquery@^2.1.4",
+      "rvagg/titlecase": "github:rvagg/titlecase@^1.0.2",
+      "twbs/bootstrap": "github:twbs/bootstrap@^3.3.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "clean-css": "npm:clean-css@^3.4.6",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

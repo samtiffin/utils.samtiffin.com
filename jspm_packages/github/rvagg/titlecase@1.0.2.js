@@ -1,0 +1,1 @@
+module.exports = require("github:rvagg/titlecase@1.0.2/to-title-case");
